@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C712381621B1BF3D001D1CB4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381521B1BF3D001D1CB4 /* DataViewController.swift */; };
+		C712381821B1BFAD001D1CB4 /* ButtonItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381721B1BFAD001D1CB4 /* ButtonItemCell.swift */; };
+		C712381A21B1C039001D1CB4 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381921B1C039001D1CB4 /* BucketItem.swift */; };
+		C712381C21B1C08B001D1CB4 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = C712381B21B1C08B001D1CB4 /* bucket18.csv */; };
 		C75D6B4821AC7D3500CA79F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6B4721AC7D3500CA79F0 /* AppDelegate.swift */; };
-		C75D6B4A21AC7D3500CA79F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6B4921AC7D3500CA79F0 /* ViewController.swift */; };
 		C75D6B4D21AC7D3500CA79F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75D6B4B21AC7D3500CA79F0 /* Main.storyboard */; };
 		C75D6B4F21AC7D3F00CA79F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75D6B4E21AC7D3F00CA79F0 /* Assets.xcassets */; };
 		C75D6B5221AC7D4000CA79F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75D6B5021AC7D4000CA79F0 /* LaunchScreen.storyboard */; };
-		C75D6B5E21AC7E4200CA79F0 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6B5D21AC7E4200CA79F0 /* DataCollectionViewCell.swift */; };
+		C75D6B5E21AC7E4200CA79F0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6B5D21AC7E4200CA79F0 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C712381521B1BF3D001D1CB4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C712381721B1BFAD001D1CB4 /* ButtonItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonItemCell.swift; sourceTree = "<group>"; };
+		C712381921B1C039001D1CB4 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		C712381B21B1C08B001D1CB4 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
 		C75D6B4421AC7D3500CA79F0 /* dataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75D6B4721AC7D3500CA79F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C75D6B4921AC7D3500CA79F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C75D6B4C21AC7D3500CA79F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C75D6B4E21AC7D3F00CA79F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75D6B5121AC7D4000CA79F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75D6B5321AC7D4000CA79F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C75D6B5D21AC7E4200CA79F0 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		C75D6B5D21AC7E4200CA79F0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		C75D6B5921AC7DB900CA79F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C712381B21B1C08B001D1CB4 /* bucket18.csv */,
 				C75D6B4721AC7D3500CA79F0 /* AppDelegate.swift */,
 				C75D6B4E21AC7D3F00CA79F0 /* Assets.xcassets */,
 				C75D6B5321AC7D4000CA79F0 /* Info.plist */,
@@ -86,7 +93,8 @@
 		C75D6B5B21AC7DFF00CA79F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C75D6B4921AC7D3500CA79F0 /* ViewController.swift */,
+				C712381521B1BF3D001D1CB4 /* DataViewController.swift */,
+				C712381721B1BFAD001D1CB4 /* ButtonItemCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,7 +102,8 @@
 		C75D6B5C21AC7E2C00CA79F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C75D6B5D21AC7E4200CA79F0 /* DataCollectionViewCell.swift */,
+				C75D6B5D21AC7E4200CA79F0 /* CollectionViewCell.swift */,
+				C712381921B1C039001D1CB4 /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C75D6B5221AC7D4000CA79F0 /* LaunchScreen.storyboard in Resources */,
+				C712381C21B1C08B001D1CB4 /* bucket18.csv in Resources */,
 				C75D6B4F21AC7D3F00CA79F0 /* Assets.xcassets in Resources */,
 				C75D6B4D21AC7D3500CA79F0 /* Main.storyboard in Resources */,
 			);
@@ -170,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75D6B4A21AC7D3500CA79F0 /* ViewController.swift in Sources */,
-				C75D6B5E21AC7E4200CA79F0 /* DataCollectionViewCell.swift in Sources */,
+				C712381621B1BF3D001D1CB4 /* DataViewController.swift in Sources */,
+				C75D6B5E21AC7E4200CA79F0 /* CollectionViewCell.swift in Sources */,
+				C712381821B1BFAD001D1CB4 /* ButtonItemCell.swift in Sources */,
+				C712381A21B1C039001D1CB4 /* BucketItem.swift in Sources */,
 				C75D6B4821AC7D3500CA79F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
