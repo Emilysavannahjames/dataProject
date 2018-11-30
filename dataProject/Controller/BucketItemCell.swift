@@ -15,9 +15,6 @@ class BucketItemCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
       
-        
-        
-        
     }
     @IBOutlet weak var bucketItemText : UILabel!
     @IBOutlet weak var bucketItemSymbol : UILabel!
@@ -31,6 +28,19 @@ class BucketItemCell: UITableViewCell {
         }
     }
     
+    private func randomEmoji() -> String
+    {
+        
+        let emojiStart = 0x1F601
+        let emojiEnd = 0x1F64F
+        let symbolStart = 0x1F680
+        let symbolEnd = 0x1F6C5
+        
+        let emojiRange = 79
+        let symbolRange = 70
+        
+        let ascii = emojiStart +
+            Int 
+    }
     
-
 }
