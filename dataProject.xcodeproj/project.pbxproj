@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C712381621B1BF3D001D1CB4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381521B1BF3D001D1CB4 /* DataViewController.swift */; };
-		C712381821B1BFAD001D1CB4 /* ButtonItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381721B1BFAD001D1CB4 /* ButtonItemCell.swift */; };
+		C712381821B1BFAD001D1CB4 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381721B1BFAD001D1CB4 /* BucketItemCell.swift */; };
 		C712381A21B1C039001D1CB4 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C712381921B1C039001D1CB4 /* BucketItem.swift */; };
 		C712381C21B1C08B001D1CB4 /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = C712381B21B1C08B001D1CB4 /* bucket18.csv */; };
 		C75D6B4821AC7D3500CA79F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D6B4721AC7D3500CA79F0 /* AppDelegate.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		C712381521B1BF3D001D1CB4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		C712381721B1BFAD001D1CB4 /* ButtonItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonItemCell.swift; sourceTree = "<group>"; };
+		C712381721B1BFAD001D1CB4 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		C712381921B1C039001D1CB4 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		C712381B21B1C08B001D1CB4 /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
 		C75D6B4421AC7D3500CA79F0 /* dataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				C712381521B1BF3D001D1CB4 /* DataViewController.swift */,
-				C712381721B1BFAD001D1CB4 /* ButtonItemCell.swift */,
+				C712381721B1BFAD001D1CB4 /* BucketItemCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			files = (
 				C712381621B1BF3D001D1CB4 /* DataViewController.swift in Sources */,
 				C75D6B5E21AC7E4200CA79F0 /* CollectionViewCell.swift in Sources */,
-				C712381821B1BFAD001D1CB4 /* ButtonItemCell.swift in Sources */,
+				C712381821B1BFAD001D1CB4 /* BucketItemCell.swift in Sources */,
 				C712381A21B1C039001D1CB4 /* BucketItem.swift in Sources */,
 				C75D6B4821AC7D3500CA79F0 /* AppDelegate.swift in Sources */,
 			);
